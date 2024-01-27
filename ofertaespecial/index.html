@@ -143,7 +143,7 @@
                 hasChanged: function() {
                     if (b.location.hash == "#no-back") {
                         b.location.hash = "#";
-                        b.location.href = "https://pay.hotmart.com/I89875543M?off=wfx7dtew&checkoutMode=10?sck=backredirect"; //LINK PARA REDIRECIONAR AQUI
+                        b.location.href = "https://pay.hotmart.com/I89875543M?off=wfx7dtew&checkoutMode=10&sck=backredirect"; //LINK PARA REDIRECIONAR AQUI
                     }
                 },
                 checkCompat: function() {
@@ -163,7 +163,7 @@
                             history.pushState(null, "", "#");
                         } else {
                             b.location.hash = "#";
-                            b.location.href = "https://pay.hotmart.com/I89875543M?off=wfx7dtew&checkoutMode=10?sck=backredirect"; //LINK PARA REDIRECIONAR AQUI
+                            b.location.href = "https://pay.hotmart.com/I89875543M?off=wfx7dtew&checkoutMode=10&sck=backredirect"; //LINK PARA REDIRECIONAR AQUI
                         }
                     }
                     a.checkCompat();
